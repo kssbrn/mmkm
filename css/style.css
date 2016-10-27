@@ -118,13 +118,12 @@ h3 {
     text-decoration: none;
 }
 
-.link:hover 
-{
-     color: #00A0C6; 
-     text-decoration: underline; 
-     cursor:pointer;  
-}
+.tovabb:hover   {
 
+ color: brown;
+ cursor:pointer;  
+
+}
 
 .com:hover   {
 
@@ -135,11 +134,10 @@ h3 {
 }
 
 
-a:visited {
-
-  color: white;
-text-decoration: none;
-cursor:pointer;  
+a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: white;
 
 
 }
