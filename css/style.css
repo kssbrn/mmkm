@@ -1,0 +1,293 @@
+@font-face {
+    font-family: 'blender_proheavy';
+    src: url('../fonts/blender_pro-heavy-webfont.woff2') format('woff2'),
+         url('../fonts/blender_pro-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'blender_promedium';
+    src: url('../fonts/blender_pro-med-webfont.woff2') format('woff2'),
+         url('../fonts/blender_pro-med-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+
+/* Location of the image */
+  background-image: url(../img/bg.png);
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+
+
+
+.wrapper
+ { 
+    padding: 50px; 
+
+}
+
+img.bg {
+    position: absolute;
+
+}
+
+
+
+
+.logo { 
+    width: 300px; 
+    height: auto;
+    position: relative;
+    top: 10%;
+    max-width: 100%;
+}
+
+
+
+h1 { 
+    font-family: 'blender_promedium';
+    text-align: left;
+    font-size: 5em;
+    color: white;
+    top: 30%;
+    max-width: 100%;
+    text-transform: uppercase;
+    line-height: 120%;
+
+ }
+
+li {
+        display: inline;
+        max-width: 100%;
+
+
+}
+
+.logos {
+
+    position: relative;
+    top: 50px;
+     }
+
+.com {
+
+    max-width: 70px;
+    max-height: 70px;
+}
+    
+h3 {
+
+    position: relative;
+    text-align: left;
+    font-size: 2em;
+    color: white;
+    max-width: 100%;
+     line-height: 680%;
+    font-family: 'blender_promedium';
+    
+
+}
+
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover 
+{
+     color: #00A0C6; 
+     text-decoration: underline; 
+     cursor:pointer;  
+}
+
+
+.com:hover   {
+
+ transform: scale(1.1, 1.1);
+  
+ cursor:pointer;  
+
+}
+
+
+a:visited {
+
+  color: white;
+text-decoration: none;
+cursor:pointer;  
+
+
+}
+
+ @media (max-width:400px) {
+
+    .wrapper
+ { 
+    padding: 10px; 
+}
+
+
+.logo { 
+    max-width: 80%;
+    max-width: 80%;
+}
+
+
+
+.com {
+
+    max-width: 40px;
+    max-height: 40px;
+}
+
+html { 
+   
+    font-size: 50%;
+   
+
+ }
+
+
+
+ }
+    @media (min-width:401px) and (max-width:599px) {
+
+    .wrapper
+ { 
+    padding: 15px; 
+}
+
+
+
+.logo { 
+    max-width: 80%;
+    max-width: 80%;
+}
+
+
+
+
+
+.com {
+
+    max-width: 60px;
+    max-height: 60px;
+}
+
+html { 
+   
+    font-size: 60%;
+ 
+ }
+
+    }
+
+
+
+
+    @media (min-width:600px) and (max-width:767px) {
+
+    .wrapper
+ { 
+    padding: 20px; 
+}
+
+html { 
+   
+    font-size: 70%;
+   
+
+ }
+
+
+
+    }
+
+
+
+
+    @media (min-width:768px) and (max-width:950px) {
+    .wrapper
+ { 
+    padding: 30px; 
+}
+
+
+html { 
+   
+    font-size: 80%;
+   
+
+ }
+
+    }
+
+
+
+
+    @media (min-width:951px) and (max-width:1050px) {
+
+    .wrapper
+ { 
+    padding: 40px; 
+}
+
+
+html { 
+   
+    font-size: 90%;
+   
+
+ }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (orientation: portrait)
+{
+    body { background-image:url(../img/bg2.png); }
+
+
+
+
+}
+ 
