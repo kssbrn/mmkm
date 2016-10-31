@@ -97,6 +97,7 @@ li {
 
     max-width: 70px;
     max-height: 70px;
+    margin-bottom: 20px;
 }
     
 h3 {
@@ -120,15 +121,15 @@ h3 {
 
 .tovabb:hover   {
 
- color: brown;
- cursor:pointer;  
+ color: grey;
+
+  cursor:pointer;  
 
 }
 
 .com:hover   {
 
- transform: scale(1.1, 1.1);
-  
+ transform: scale(1.1, 1.1);  
  cursor:pointer;  
 
 }
@@ -141,6 +142,11 @@ a:visited, a:link, a:active
 
 
 }
+
+
+
+
+
 
  @media (max-width:400px) {
 
